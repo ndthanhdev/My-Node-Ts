@@ -1,0 +1,10 @@
+"use strict";
+const express = require("express");
+var router = express.Router();
+/* GET users listing. */
+router.get('/', function (req, res, next) {
+    res.send('from test2');
+});
+module.exports = router;
+
+//# sourceMappingURL=Test2.js.map

@@ -1,0 +1,37 @@
+{
+  "name": "my-node-ts",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "start": "node --debug ./bin/Index.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "jade": "~1.11.0",
+    "morgan": "^1.8.2",
+    "serve-favicon": "~2.4.2"
+  },
+  "devDependencies": {
+    "@types/debug": "0.0.29",
+    "@types/del": "^2.2.32",
+    "@types/express": "^4.0.35",
+    "@types/gulp-typescript": "^2.13.0",
+    "@types/morgan": "^1.7.32",
+    "@types/node": "^7.0.29",
+    "@types/run-sequence": "0.0.29",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-minify": "^1.0.0",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-typescript": "^3.1.7",
+    "path": "^0.12.7",
+    "pump": "^1.0.2",
+    "run-sequence": "^1.2.2",
+    "typescript": "^2.3.4"
+  }
+}
